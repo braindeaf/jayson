@@ -1,8 +1,8 @@
 module Jayson
   module Controller
     extend ActiveSupport::Concern
-    
-    included { after_filter :jsonp_callback }
+
+    included { after_action :jsonp_callback }
 
     private
 
