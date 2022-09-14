@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Jayson
   class Railtie < Rails::Railtie
     initializer 'jayson.action_controller' do
